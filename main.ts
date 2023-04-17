@@ -21,7 +21,7 @@ input.onPinPressed(TouchPin.P2, function () {
         won = false
     }
 })
-// Blue Button pin
+// Blue Button pin 11
 input.onButtonPressed(Button.B, function () {
     if (!(won)) {
         won = true
